@@ -6,3 +6,18 @@
 .Logo{
     height: 45px;
 }
+.mapa{
+    height: 700px;
+}
+body{
+    background-color: white;
+    font-family: 'BenchNine', sans-serif;
+}
+h1{
+    font-size: 35px;
+    font-family: 'BenchNine', sans-serif;
+}
+h2{
+    font-size: 35px;
+    font-family: 'PT Sans Narrow', sans-serif
+}
