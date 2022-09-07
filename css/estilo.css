@@ -56,3 +56,6 @@ p{
 .btn-primary{
     font-size: 25px;
 }
+.map{
+    object-fit: scale-down;
+}
