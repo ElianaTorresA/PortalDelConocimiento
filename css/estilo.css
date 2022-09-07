@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .Logo{
-    height: 45px;
+    height: 55px;
 }
 .mapa{
     height: 700px;
@@ -12,12 +12,47 @@
 body{
     background-color: white;
     font-family: 'BenchNine', sans-serif;
+    font-size: xx-large;
 }
-h1{
-    font-size: 35px;
-    font-family: 'BenchNine', sans-serif;
+header{
+    font-size: x-large;
 }
-h2{
-    font-size: 35px;
-    font-family: 'PT Sans Narrow', sans-serif
+.navbar-brand{
+    font-size: xx-large;
+}
+.imagen1:hover{
+    transform: scale(105%);
+}
+.imagen2:hover{
+    transform: scale(105%);
+}
+.imagen3:hover{
+    transform: scale(105%);
+}
+.imagen4:hover{
+    transform: scale(105%);
+}
+.imagen5:hover{
+    transform: scale(105%);
+}
+.imagen6:hover{
+    transform: scale(105%);
+}
+.imagen7:hover{
+    transform: scale(105%);
+}
+.imagen8:hover{
+    transform: scale(105%);
+}
+.banner{
+    width: 2000px;
+}
+.dropdown-item{
+    font-size: larger;
+}
+p{
+    text-align: center;
+}
+.btn-primary{
+    font-size: 25px;
 }
