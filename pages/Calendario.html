@@ -74,11 +74,18 @@
                   <a class="nav-link" href="#">Ambiental</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="./Calendario.html">Calendario</a>
+                  <a class="nav-link active color1" href="./Calendario.html">Calendario</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./solicitudes.html">Solicitudes y modificaciones</a>
+                    <a class="nav-link color1" href="./solicitudes.html">Ingreso de contenido</a>
                 </li>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button type="submit" class="btn btn-outline-success btn-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </form>
               </ul>
             </div>
           </div>
@@ -86,14 +93,27 @@
       </header>
       <main>
         <br>
-        <p>Calendario</p>
+        
         <div class="container text-center">
-            <div class="row">
-              <div class="col">
-                <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FBogota&src=a290b21pdG9ycmVzQGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZXMuY28jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%237986CB&color=%237986CB" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+          <div class="row">
+            <div class="col-md-12"><p>Calendario</p></div>
+          </div>
+          <div class="row">
+            <div class="col-2">Ingresa un evento en el calendario <br>
+              <div class="btn-group">
+                <a href="./eventocalendario.html" class="btn btn-dark">Nuevo evento</a>
               </div>
             </div>
+            <div class="col-10"><div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FBogota&src=a290b21pdG9ycmVzQGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZXMuY28jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%237986CB&color=%237986CB" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+              </div>
+            </div></div>
           </div>
+        </div>
+        
         
 
       </main>

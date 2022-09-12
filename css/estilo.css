@@ -15,10 +15,10 @@ body{
     font-size: xx-large;
 }
 header{
-    font-size: x-large;
+    font-size: large;
 }
 .navbar-brand{
-    font-size: xx-large;
+    font-size: larger;
 }
 .imagen1:hover{
     transform: scale(105%);
@@ -56,6 +56,6 @@ p{
 .btn-primary{
     font-size: 25px;
 }
-.map{
-    object-fit: scale-down;
+.color1{
+    color: rgb(251 80 0);
 }
